@@ -135,7 +135,7 @@ class Artist
   
   def genres
     self.songs.collect do |song|
-      song.genre
+      song.genre.name
     end
   end
 end
@@ -259,3 +259,5 @@ Why associate artists to genre objects *through* songs? By associating songs to 
 With our "through association", as long as we have properly associated a song to a given genre and that same song to a given artist, our connection between an artist and his or her genres will automatically follow. 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-objects-has-many-through-readme' title='Ruby Object Relations: Has-Many Through'>Ruby Object Relations: Has-Many Through</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-objects-has-many-through-readme'>Has Many Objects Through</a> on Learn.co and start learning to code for free.</p>
