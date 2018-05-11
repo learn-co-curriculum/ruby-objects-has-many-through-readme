@@ -99,7 +99,7 @@ ninety_nine_problems.genre.name
 
 Let's take a step back and think about the web of relationships that exists between our three classes, or models. We have an `Artist` class that produces individual artists that have many songs. We have a `Song` class that produces individual songs that belong to an artist *and* belong to a genre.
 
-![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-11-03%20at%2012.23.17%20PM.png) 
+![](https://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-11-03%20at%2012.23.17%20PM.png) 
 
 ## The "has many through" Relationship
 
